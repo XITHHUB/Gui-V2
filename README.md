@@ -93,7 +93,7 @@ end
 
 local Library = Instance.new("ScreenGui")
 Library.Name = "Library"
-Library.Parent = game.Players.Localplayer.PlayerGui
+Library.Parent = game.game:GetService("Players").LocalPlayer.PlayerGui
 Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local uitoggled = false
